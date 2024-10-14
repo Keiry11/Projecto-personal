@@ -9,7 +9,7 @@
     <title>Adopta una mascota</title>
 </head>
 <body>
-    <nav class="navbar">
+    <nav class="bg-zinc-800">
         <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
             <div class="relative flex h-16 items-center justify-between">
               <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -17,17 +17,17 @@
                  
               <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                 <div class="flex flex-shrink-0 items-center">
-                  <img class="h-8 w-auto" src="img/3.jpg" alt="My Company">
+                  <img class="h-8 w-auto" src="img/logo.jpg" alt="My Company">
                 </div>
                 
-                <div class="hidden sm:ml-6 sm:block">
-                  <div class="flex space-x-4">
+                <div class="hidden sm:ml-7 sm:block">
+                  <div class="flex space-x-6">
                     
-                    <a href="#" class="rounded-md bg-black-200 px-3 py-2 text-sm font-medium text-black-300" aria-current="page">INICIO</a>
-                    <a href="paginas/mascotas.html" class="rounded-md px-3 py-2 text-sm font-medium text-black-300 hover:bg-black-200 hover:text-white" id="mascotas">MASCOTAS</a>
-                    <a href="paginas/productos.html" class="rounded-md px-3 py-2 text-sm font-medium text-black-300 hover:bg-black-200 hover:text-white" id="productos">PRODUCTOS</a>
-                    <a href="paginas/ubicaciones.html" class="rounded-md px-3 py-2 text-sm font-medium text-black-300 hover:bg-black-200 hover:text-white" id="ubicacion">UBICACIONES</a>
-                    <a href="paginas/mas.html" class="rounded-md px-3 py-2 text-sm font-medium text-black-300 hover:bg-black-200 hover:text-white" id="contacto">MAS</a>
+                    <a href="#" class="rounded-md bg-black-200 px-6 py-4 text-sm font-medium text-white" aria-current="page">INICIO</a>
+                    <a href="paginas/mascotas.html" class="rounded-md px-10 py-5 text-sm font-medium text-white hover:bg-black-200 hover:text-white" id="mascotas">MASCOTAS</a>
+                    <a href="paginas/productos.html" class="rounded-md px-10 py-5 text-sm font-medium text-white hover:bg-black-200 hover:text-white" id="productos">PRODUCTOS</a>
+                    <a href="paginas/ubicaciones.html" class="rounded-md px-10 py-5 text-sm font-medium text-white hover:bg-black-200 hover:text-white" id="ubicacion">UBICACIONES</a>
+                    <a href="paginas/nosotros.html" class="rounded-md px-10 py-5 text-sm font-medium text-white hover:bg-black-200 hover:text-white" id="ubicacion">NOSOTROS</a>
                 
                   </div>
                 </div>
@@ -46,9 +46,9 @@
               <a href="#" class="block rounded-md bg-gray-900 px-3 py-2 text-base font-medium text-white" aria-current="page">INICIO</a>
               <a href="#" class="block rounded-md px-3 py-2 text-base font-medium text-black-300 hover:bg-gray-700 hover:text-white">MASCOTAS</a>
               <a href="#" class="block rounded-md px-3 py-2 text-base font-medium text-black-300 hover:bg-gray-700 hover:text-white">PRODUCTOS</a>
-              <a href="#" class="block rounded-md px-3 py-2 text-base font-medium text-black-300 hover:bg-gray-700 hover:text-white">ACERCA DE NOSOTROS</a>
-              <a href="#" class="block rounded-md px-3 py-2 text-base font-medium text-black-300 hover:bg-gray-700 hover:text-white">CONTACTOS</a>
-            </div>
+              <a href="#" class="block rounded-md px-3 py-2 text-base font-medium text-black-300 hover:bg-gray-700 hover:text-white">UBICACIONES</a>
+              <a href="#" class="block rounded-md px-3 py-2 text-base font-medium text-black-300 hover:bg-gray-700 hover:text-white">NOSOTROS</a>
+            </di>
           </div>
                 
     </nav>
@@ -61,46 +61,6 @@
             
         </div>
     </section>
-        <section class="form">
-          <div class="container mx-auto">
-            <h1 class=" text-3xl mb-4 font-bold">Formulario de Adopción</h1>
-            <form id="crudForm" class="color">
-            <div class="mb-4">
-                <label class="block text-black-700" for="name">nombre</label>
-                <input class="border border-gray-300 p-2 rounded w-full" type="text" id="name">
-            </div>
-    
-            <div class="mb-4">
-                <label class="block text-black-700"  for="lastName">Apellido</label>
-                <input class="border border-gray-300 p-2 rounded w-full" type="text" id="lastName">
-            </div>
-            <div class="mb-4">
-                <label class="block text-black-700"  for="phone">Teléfono</label>
-                <input  class="border border-gray-300 p-2 rounded w-full" type="text" id="phone">
-            </div>
-            
-            <div class="mb-4">
-                <label class="block text-black-700"  for="direction">Dirección</label>
-                <input  class="border border-gray-300 p-2 rounded w-full" type="text" id="direction">
-            </div>
-
-            <div class="mb-4">
-                <label class="block text-black-700"  for="reasons">Razones de la adopción</label>
-                <input  class="border border-gray-300 p-2 rounded w-full" type="text" id="reasons">
-            </div>
-            <button class="bg-gray-500 text-white px-4 p-2 rounded" type="submit">Enviar</button>
-    
-            </form>
-            
-            <table class="min-w-full bg-white shadow-md rounded-lg ">
-               
-                <tbody id="dataTable">
-                    <!--Los datos iran aquí-->
-                </tbody>
-            </table>
-    
-        </div>
-</section>
 
     <section>
     <footer style="background-color: #333; color: #fff; text-align: center; padding: 20px 0;">
@@ -130,6 +90,7 @@
             <p>&copy; 2024 MiSitio. Todos los derechos reservados.</p>
           </div>
         </div>
+        
       </footer>
       </section>
       

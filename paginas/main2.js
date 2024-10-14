@@ -1,5 +1,3 @@
-
-
 // captura formulario 
 const form = document.getElementById('crudForm');
 const dataTable = document.getElementById('dataTable');
